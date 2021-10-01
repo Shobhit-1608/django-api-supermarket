@@ -7,6 +7,3 @@ class CustomerViewSet(ModelViewSet):
     serializer_class = CustomerSerializer
     queryset = Customer.objects.all()
 
-    
-
-# Create your views here.

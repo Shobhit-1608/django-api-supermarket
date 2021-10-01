@@ -1,0 +1,8 @@
+from django.db import models
+from django.db.models.base import Model
+
+# Create your models here.
+class Queue(models.Model):
+    length_queue : int
+    choice_estimated: str
+
